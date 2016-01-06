@@ -1,0 +1,76 @@
+/**
+ * Place your custom styles here.
+ */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+#navbar, .f8f8f8{
+	background-color:#F8F8F8;
+}
+
+#header{
+	background:transparent url("../images/intro-bg.jpg") no-repeat scroll center center / cover;
+	margin-top: 50px;
+	color:white;
+	min-height:750px;
+}
+
+#header_container{
+	padding-top:20%;
+	padding-bottom:20%;
+}
+
+#contact{
+	background:transparent url("../images/banner-bg.jpg") no-repeat scroll center center / cover;
+	
+	color:white;
+	/*min-height:245px;*/
+	padding:100px 0px;
+}
+#contact h1{
+	margin-top: 0px; 
+	margin-bottom: 0px;
+	
+}
+
+
+.centered-text{
+text-align: center;
+}
+
+.divider{
+		width:95%;
+}
+
+@media(min-width:768px) {
+    .divider{
+		width:400px;
+	}
+}
+
+.single-page-title{
+	display:none;
+}
+
+.main-menu li {
+    display:inline;
+    margin-right:5px;
+}
+
+.main-menu a {
+    color: #0088CC; 
+	text-decoration:none;
+}
+
+#block-menu-menu-bottom-menu >h2{
+	display:none;
+}
+
+#block-menu-menu-bottom-menu ul.menu li {
+	display: inline; 
+	margin-right: 15px;
+}
+
